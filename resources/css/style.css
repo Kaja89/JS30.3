@@ -1,0 +1,38 @@
+:root {
+  --base: #7a02bc;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+html {
+  font-size: 20px;
+  }
+
+body {
+  background-color: #111222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  }
+
+.controls {
+  margin-bottom: 2rem;
+}
+
+.hl {
+  color: var(--base);
+}
+img {
+  height: 450px;
+  width: auto;
+  border-radius: 4px;
+  padding: var(--spacing);
+  background-color: var(--base);
+  filter: blur(var(--blur));
+ }
+
+ input {
+   width: 5rem;
+ }
